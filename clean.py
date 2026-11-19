@@ -1,9 +1,25 @@
 import pandas as pd
 
 # Self Assessment Questions:
-#
-#
-#
+# 1. 
+# Filling missing values feels most ambiguous because using
+# the mean assumes that the missing value is similar to the
+# other values. Before doing this with real business data, I
+# would want to know why the information is missing and whether
+# the average is a reasonable estimate.
+# 2. 
+# Yes. I included comments explaining why I dropped rows with
+# missing order IDs or dates, why I filled numeric missing
+# values with the mean, and why I removed the 9,999 quantity.
+# These comments explain the reasoning behind the decisions.
+# 3.
+# The most important thing I noticed was how high the maximum quantity
+# sold was compared to the other orders. I did not expect to find a 
+# quantity of 9,999, which turned out to be a placeholder and not a real
+# sale. This showed me how important it is to look at the statistics and 
+# check for unusual values before using data for a business decision. I 
+# also learned that negative revenue is not always an error because it can 
+# represent customer returns.
 
 print("--- Exercise 1 ---")
 
